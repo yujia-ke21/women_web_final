@@ -71,9 +71,7 @@
     .active{
         background-color: #8D3A15;
         color:#1B1B1B;
-        /* font-weight: 600; */
         font-weight: bold;
-        width:100%;
     }
     
     .page_container{
