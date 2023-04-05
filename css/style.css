@@ -614,6 +614,15 @@
     img{
         border: 3px dotted rgb(255, 255, 255);
     }
+    
+    .lit-item:nth-child(2n) img {
+        border: dashed rgb(255, 46, 210) 2px;
+    }
+
+    .lit-item:nth-child(2n) img:hover {
+        border-image: linear-gradient(#bf14a5, #cd790b);
+        border: 10px solid;
+    }
 
     .lit-item ul li {
         color: rgb(179, 254, 202);
