@@ -439,7 +439,6 @@
     div.page{
         display: flex;
         width: 40vw;
-        height:500px;
         margin: 10px 20px;
         flex-wrap: wrap;
         flex-direction: column;
