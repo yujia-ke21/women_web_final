@@ -566,9 +566,28 @@
         }
       }
     
-        h1 span::before {
-            content: "desktop device";
-        }
+         /* Apply the animation to the title element */
+    h1 {
+    animation-name: title;
+    text-align: center;
+    margin:15px;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out; /* Optional: specify the timing function for the animation */
+    animation-iteration-count: 1; /* Optional: specify the number of times the animation should repeat */
+    }
+          /* Define the keyframes for the animation */
+    @keyframes title {
+    0% {
+      transform: scale(1); /* Initial state of the title */
+    }
+    50% {
+      transform: scale(1.2); /* Mid-state of the title, scaled up */
+
+    }
+    100% {
+      transform: scale(1); /* Final state of the title, scaled back to normal */
+    }
+    }
 
         .logo img{
             width: 5%;
